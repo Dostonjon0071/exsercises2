@@ -1,0 +1,125 @@
+.hero__container{
+    display: block;
+    margin: 0 auto;
+    display: inline;
+    justify-content: center;
+}
+.hero{
+    width: 1275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    &__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        
+
+    }
+    &__item{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        justify-content: space-around;
+        
+    }
+    &__title{
+        display: flex;
+        
+        padding: 40px;
+    }
+    &__text{
+        display: flex;
+     
+        
+        color: #939CAA;
+        padding: 5px;
+    }
+
+}
+@media screen and (max-width: 765px){
+.hero__list{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.hero__text{
+    display: inline;
+    text-align: center;
+    padding: 5px;
+}
+    
+}
+@media screen and (max-width: 465px){
+    .hero{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero__list{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .hero__text{
+        display: inline;
+        text-align: center;
+        padding: 15px;
+        gap: 5px;
+    }
+    .hero__img{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding-inline-start: 5px;
+        margin: 15px;
+    }
+    .hero__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content:space-between ;
+        padding: 10px;
+    }
+        
+    }
+    @media screen and (max-width: 360px){
+        .hero__list{
+            display: inline;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .hero__text{
+            display: inline;
+            text-align: center;
+            
+            justify-content: center;
+        }
+        .hero__img{
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            padding-inline-start: 5px;
+            margin: 20px;
+        }
+        .hero__title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            justify-content:space-between ;
+            padding: 10px;
+            
+            margin: 15px;
+        }
+            
+        }

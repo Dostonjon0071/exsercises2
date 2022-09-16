@@ -1,0 +1,230 @@
+.intro{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    
+    &__list:nth-child(1){
+        display: flex;
+        width: 1619px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        
+       
+        
+    }
+    &__item{
+        display: inline-block;
+    }
+    &__title{
+        display: inline;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 48px;
+        color: #495567;
+        padding: 20px;
+      
+    }
+    &__text{
+        display: inline;
+        justify-content: center;
+        width: 445px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        padding-top: 20px;
+        margin-top: 15px;
+    }
+    &__button{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 180px;
+        padding: 20px 53px;
+        background: #FCB72B;
+        border: #FCB72B;
+        margin-top: 40px;
+    }
+    &__list:nth-child(2){
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        padding-top: 80px;
+        gap: 220px;
+         
+         
+
+    }
+    &__img:nth-child(2){
+        width: 995px;
+        margin-left: 0%;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__item:nth-child(2){
+        display: inline;
+        width: 445px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    &__text:nth-child(2){
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 40px;
+    
+    
+    }
+    &__img:nth-child(2){
+        display: inline;
+        width: 995px;
+        justify-content: center;
+        align-items: center;
+    
+        
+    
+        
+    }
+    &__list:nth-child(3){
+        display: flex;
+        width: 1655px;
+        justify-content: center;
+        justify-content: space-between;
+        padding-top: 40px;
+        gap: 220px;
+
+    }
+    &__item:nth-child(3){
+        display: inline;
+        width: 445px;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    &__text:nth-child(3){
+        display: inline;
+        width: 445px;
+        justify-content: space-between;
+        padding-top: 20px ;
+    }
+    &__title:nth-child(3){
+        display: inline;
+        width: 445px;
+        justify-content: space-between;
+        margin: 40px;
+    }
+}
+.intro__container{
+   
+}
+
+@media screen and (max-width: 765px){
+    .intro__list{
+        display: inline;
+         
+    }
+    .intro__text{
+        display: inline;
+        text-align: center;
+        padding: 5px;
+    }
+        
+    }
+    @media screen and (max-width: 465px){
+        .intro{
+            display: inline;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .hero__list{
+            display: inline;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
+        .hero__text{
+            display: row;
+            // text-align: center;
+            
+        }
+        .intro__img{
+            display: row;
+            
+            
+        }
+        .intro__title{
+            display: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            justify-content:space-between ;
+            padding: 10px;
+        }
+            
+        }
+        @media screen and (max-width: 360px){
+            .hero__list{
+                display: row;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .hero__text{
+                display: row;
+                text-align: center;
+                
+                justify-content: center;
+            }
+            .intro__img{
+                display: row;
+                justify-content: center;
+                align-items: center;
+                padding-inline-start: 5px;
+                margin: 20px;
+            }
+            .intro__title{
+                display: row;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                justify-content:space-between ;
+                padding: 10px;
+                
+                margin: 15px;
+            }
+                
+            }
+            @media screen and (max-width: 765px){
+                .intro{
+                    display: row;
+                    justify-content: center;
+
+                }
+                
+            }
+            @media screen and (max-width: 465px){
+                .intro{
+                    display:row;
+                    justify-content: center;
+                    text-align: center;
+
+                }
+                
+            }
+            @media screen and (max-width: 365px){
+                .intro{
+                    display: row;
+                    justify-content: center;
+
+                }
+                
+            }
